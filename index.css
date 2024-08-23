@@ -505,7 +505,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 .video-container {
-    max-width: 600px; /* Set the maximum width you want for the video */
+    max-width: 800px; /* Set the maximum width you want for the video */
     margin: 0 auto; /* Center the video */
     position: relative;
     padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
@@ -530,7 +530,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media(min-width: 901px) {
-    .video-container {
+    .video-container iframe {
         flex: 1;
         margin: 0 0 0 10rem;
     }
