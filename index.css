@@ -508,13 +508,12 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__video-container {
     margin-bottom: var(--gutter-normal);
-    max-width: 800px; /* Set the maximum width you want for the video */
     position: relative;
     overflow: hidden;
+    height: auto; /* Allow the video container to adjust height automatically */
 }
 
 .video-container iframe {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -524,7 +523,7 @@ body:not(.user-is-tabbing) a:focus {
 /* Responsive adjustments */
 @media(max-width: 900px) {
     .work__video-container {
-        height: 4rem;
+        height: auto; /* Remove or change this to a more appropriate height */
     }
 }
 
