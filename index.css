@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/banner3.jpg');
+        url('./images/header.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -504,20 +504,18 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height: width) */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-  }
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+@media(max-width: 900px) {
+    .video-container {
+        max-width: 100%; /* Make the video container full width on smaller screens */
+        padding-bottom: 60%; /* Adjust aspect ratio for smaller screens */
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
