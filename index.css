@@ -494,6 +494,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .video-container {
     position: relative;
+    margin-bottom: var(--gutter-normal);
     padding-bottom: 56.25%; /* 16:9 aspect ratio (height: width) */
     height: 0;
     overflow: hidden;
