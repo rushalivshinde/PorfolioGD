@@ -495,7 +495,7 @@ body:not(.user-is-tabbing) a:focus {
 .work__image-box iframe {
     width: 100%; /* Make the iframe take up the full width of the container */
     height: 100%; /* Make the iframe take up the full height of the container */
-    min-height: 300px; /* Optional: set a minimum height for the iframe */
+    min-height: 400px; /* Optional: set a minimum height for the iframe */
     border: 0; /* Remove the default border */
 }
 
