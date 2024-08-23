@@ -504,12 +504,12 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
-.video-container {
+
+
+.work__video-container {
+    margin-bottom: var(--gutter-normal);
     max-width: 800px; /* Set the maximum width you want for the video */
-    margin: 0 auto; /* Center the video */
     position: relative;
-    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
-    height: 0;
     overflow: hidden;
 }
 
@@ -523,14 +523,13 @@ body:not(.user-is-tabbing) a:focus {
 
 /* Responsive adjustments */
 @media(max-width: 900px) {
-    .video-container {
-        flex: 1;
-        margin: 0 0 0 10rem;
+    .work__video-container {
+        height: 4rem;
     }
 }
 
 @media(min-width: 901px) {
-    .video-container {
+    .work__video-container {
         flex: 1;
         margin: 0 0 0 10rem;
     }
