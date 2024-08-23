@@ -524,14 +524,15 @@ body:not(.user-is-tabbing) a:focus {
 /* Responsive adjustments */
 @media(max-width: 900px) {
     .video-container {
-        max-width: 100%; /* Full width on smaller screens */
-        padding-bottom: 60%; /* Adjust aspect ratio if needed */
+        flex: 1;
+        margin: 0 0 0 10rem;
     }
 }
 
 @media(min-width: 901px) {
     .video-container {
-        max-width: 600px; /* Limit size on larger screens */
+        flex: 1;
+        margin: 0 0 0 10rem;
     }
 }
 
