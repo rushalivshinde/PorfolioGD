@@ -495,42 +495,13 @@ body:not(.user-is-tabbing) a:focus {
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
-        margin: 0 0 0 10rem;
+        margin: 0 0 0 15rem;
     }
 }
 
 @media(max-width: 900px) {
     .work__code {
-        height: 4rem;
-    }
-}
-
-
-.work__video-container {
-    margin-bottom: var(--gutter-normal);
-    position: relative;
-    overflow: hidden;
-    height: auto; /* Allow the video container to adjust height automatically */
-}
-
-.video-container iframe {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* Responsive adjustments */
-@media(max-width: 900px) {
-    .work__video-container {
-        height: auto; /* Remove or change this to a more appropriate height */
-    }
-}
-
-@media(min-width: 901px) {
-    .work__video-container {
-        flex: 1;
-        margin: 0 0 0 10rem;
+        height: 5rem;
     }
 }
 
