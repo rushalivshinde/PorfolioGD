@@ -529,6 +529,11 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+@media(min-width: 901px) {
+    .video-container {
+        flex: 1;
+    }
+}
 
 /* --------------------------------------- */
 /* ----- About ----- */
