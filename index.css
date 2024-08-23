@@ -532,6 +532,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(min-width: 901px) {
     .video-container {
         flex: 1;
+        margin: 0 0 0 10rem;
     }
 }
 
